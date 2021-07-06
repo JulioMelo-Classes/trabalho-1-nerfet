@@ -292,16 +292,6 @@ int main(int argc, char *argv[]){
   keno_table[14][15]=2500;
   keno_table[15][15]=10000;
 
-  //initialize_keno_table(keno_payofftable);
-
-  // for(int i=0; i<=16; i++){
-  //   keno_table[i][0]=0;
-  // }
-  // keno_table[0][3]=0;
-  // keno_table[1][3]=1;
-  // keno_table[2][3]=2;
-  // keno_table[3][3]=16;
-
   /* Inicializa uma seed aleatória */
   srand (time(NULL));
 
@@ -359,6 +349,10 @@ int main(int argc, char *argv[]){
         }
         betsInt[counter]=stof(del);
         counter++;
+        if(counter>15){
+          cout<<"Aposta inválida pois existem excessivos números de aposta. Encerrando."<<endl;
+          return 0;
+        }
       }
       cout<<"Apostas: ";
       bet1.printBet(counter);
