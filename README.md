@@ -5,7 +5,7 @@ Repositório contendo as especificações do Trabalho 1 da disciplina de LP1
 
 Para compilar o programa no Windows será necessário um compilador de c++. Para isso eu instalei o Mingw-w64 para utilizar o g++ para compilar o projeto direto do prompt de comando.
 
-Uma vez que o g++ esteja instalado, você deve abrir o CMD e ir para o diretório onde estão os arquivos. (Aqui é trabalho-1-nerfet).
+Uma vez que o g++ esteja instalado, você deve abrir o CMD e ir para o diretório onde estão os arquivos.
 Para compilar execute o comando "g++ -o build/keno src/main.cpp". Isso irá compilar o arquivo main.cpp e criar um executavel "keno.exe" dentro da pasta build. 
 
 # Execuntando o programa e utilizando os testes
