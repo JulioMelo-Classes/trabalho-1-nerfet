@@ -2,9 +2,7 @@
 #include<sstream>
 #include <string.h>
 #include <vector>
-// #include<ctime>
-// #include<cstdlib>
-#include <time.h>       /* time */
+#include <time.h>
 
 using namespace std;
 
