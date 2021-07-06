@@ -11,12 +11,14 @@ Para compilar execute o comando **"g++ -o build/keno src/main.cpp"**. Isso irá 
 ## Executando o programa e utilizando os testes
 
 Agora, para executar o programa só precisamos entrar no diretório build e usar o comando **"keno.exe"**. Se fizer isso, o programa mostrará um erro pois nenhum arquivo  de dados foi passado como argumento. Esses aquivos estão no diretório "data" dentro de "build", portanto para utiliza-los basta executar o programa usando, por exemplo: **"keno.exe data/aposta.dat"**. Existem 6 arquivos de teste dentro da pasta data, esses são:
+
     > aposta.dat
     > aposta2.dat
     - aposta3.dat
     - apostaErro.dat
     - apostaErro2.dat
     - apostaErro3.dat
+    
 As aposta que possuem erro não serão executadas e o programa mostrará o que há de errado com elas.
 
 ## Limitações 
