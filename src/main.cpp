@@ -98,7 +98,7 @@ int main(int argc, char *argv[]){
         cout<<"Apostas: ";
         bet1.printBet(counter);
       }
-      if(newline==3){
+      if(newline>=3){
         cout<<endl<<"Arquivo de aposta não está no formato correto. Encerrando."<<endl;
         return 0;
       }
