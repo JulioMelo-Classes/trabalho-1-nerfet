@@ -6,7 +6,7 @@ Repositório contendo as especificações do Trabalho 1 da disciplina de LP1
 Para compilar o programa no Windows será necessário um compilador de c++. Para isso eu instalei o **Mingw-w64** para utilizar o g++ para compilar o projeto direto do prompt de comando.
 
 Uma vez que o g++ esteja instalado, você deve abrir o CMD e ir para o diretório onde estão os arquivos.
-Para compilar execute o comando **"g++ -o build/keno src/main.cpp"**. Isso irá compilar o arquivo main.cpp e criar um executavel **"keno.exe"** dentro da pasta build. 
+Para compilar execute o comando **"g++ -o build/keno -Iinclude src/main.cpp include/keno.h"**. Isso irá compilar o arquivo main.cpp e criar um executavel **"keno.exe"** dentro da pasta build. 
 
 ## Executando o programa e utilizando os testes
 
@@ -18,6 +18,7 @@ Agora, para executar o programa só precisamos entrar no diretório build e usar
     - apostaErro.dat
     - apostaErro2.dat
     - apostaErro3.dat
+    - apostaErro4.dat
 
 As aposta que possuem erro não serão executadas e o programa mostrará o que há de errado com elas.
 
