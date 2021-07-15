@@ -9,6 +9,29 @@
 
 using namespace std;
 
+/*
+Avaliação
+Processamento do Arquivo de Entrada: 0,75 (faltou testar a quantidade de linhas)
+Execução correta: 0,8 (20% de penalidade pela implementação no .h)
+Interfcace Textual: 0,8
+Documentação: 1
+Compilação automatizada: 0 (não fez)
+Organização em src, include, build, data: 1 (considerei mesmo o lugar do diretório data estando errado)
+
+Comentários
+- movi o diretorio data para fora do build, para melhorar a organização
+- já que você não conseguiu (não entendi o motivo) usar um Makefile ou Cmake, o mínimo que poderia ter
+feito era uma compilação usando scripts (no windows ou no linux, desde que ficasse claro no readme)
+- como conversamos na entrevista, a ideia da disciplina é que você use e aprenda c++. Assim eu sugiro
+nos próximos trabalhos que você implemente vetores usando std::vector ou array, além de evitar o máximo que der
+ponteiros para tipos básicos (int*, char*, float*, etc).
+- Provavelmente por não ter tentado usar C++ você também não implementou outras classes, neste problema caberiam pelo menos mais 2
+uma responsável pela interface textual e outra responsável pelo processamento e validação do arquivo, tente pensar (não precisa fazer)
+como você modelaria o problema desta forma, veja que o main ficaria bem mais enxuto.
+- Outro ponto que tem que ser revisto é que você adicionou as implementações inline no .h. Você sabe de ITP que isso é uma má prática
+todo .h precisa de um .cpp correspondente. Assim eu vou remover pontos da parte de código do trablaho por isso (20% a menos).
+*/
+
 /* Main */
 int main(int argc, char *argv[]){
 	
